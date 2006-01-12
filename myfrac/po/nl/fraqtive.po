@@ -1,0 +1,321 @@
+# translation of fraqtive.po to Dutch
+# Rinse de Vries <rinsedevries@kde.nl>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fraqtive\n"
+"POT-Creation-Date: 2005-07-30 01:50+0200\n"
+"PO-Revision-Date: 2005-08-24 23:35+0200\n"
+"Last-Translator: Rinse de Vries <rinsedevries@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Rinse de Vries"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "rinsedevries@kde.nl"
+
+#: fraqtive.cpp:225
+msgid "Image Size:"
+msgstr "Afbeeldingsgrootte:"
+
+#: fraqtive.cpp:229
+msgid "x"
+msgstr "x"
+
+#: fraqtive.cpp:239 fraqtive.cpp:260
+msgid "Save Image"
+msgstr "Afbeelding opslaan"
+
+#: fraqtive.cpp:253
+msgid "An invalid image size was entered."
+msgstr "Ongeldige afbeeldingsgrootte ingevoerd."
+
+#: fraqtive.cpp:261
+msgid "Generating Image..."
+msgstr "Afbeelding genereren..."
+
+#: fraqtive.cpp:278
+msgid "Not enough memory to generate the fractal."
+msgstr "Onvoldoende geheugen om de fractal te genereren."
+
+#: fraqtive.cpp:280
+msgid "Saving Image..."
+msgstr "Afbeelding opslaan..."
+
+#: fraqtive.cpp:288
+msgid "Failed to save the image file."
+msgstr "Opslaan van afbeeldingsbestand is mislukt."
+
+#: fraqtive.cpp:497
+msgid "2D View"
+msgstr "2D-weergave"
+
+#: fraqtive.cpp:500
+msgid "3D View"
+msgstr "3D-weergave"
+
+#: fraqtive.cpp:503
+msgid "Parameters"
+msgstr "Parameters"
+
+#: fraqtive.cpp:508
+msgid "Display"
+msgstr "Weergave"
+
+#: fraqtive.cpp:512
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: fraqtive.cpp:586
+msgid "X coordinate:"
+msgstr "X-coördinaat:"
+
+#: fraqtive.cpp:591
+msgid "X coordinate of the center of the view"
+msgstr "X-coördinaat van het midden van de weergave"
+
+#: fraqtive.cpp:593
+msgid "Y coordinate:"
+msgstr "Y-coördinaat:"
+
+#: fraqtive.cpp:598
+msgid "Y coordinate of the center of the view"
+msgstr "Y-coördinaat van het midden van de weergave"
+
+#: fraqtive.cpp:600
+msgid "Zoom magnitude:"
+msgstr "Zoommagnitude:"
+
+#: fraqtive.cpp:605
+msgid "Zoom order of maginitude"
+msgstr "Zoomfactor van de magnitude"
+
+#: fraqtive.cpp:607
+msgid "Rotation angle:"
+msgstr "Rotatiehoek:"
+
+#: fraqtive.cpp:612
+msgid "View rotation angle in degrees"
+msgstr "Weergave rotatiehoek in graden"
+
+#: fraqtive.cpp:614
+msgid "Julia X param.:"
+msgstr "Julia X param.:"
+
+#: fraqtive.cpp:618
+msgid "X coordinate of the Julia parameter"
+msgstr "X-coördinaat voor de Julia-parameter"
+
+#: fraqtive.cpp:620
+msgid "Julia Y param.:"
+msgstr "Julia Y param.:"
+
+#: fraqtive.cpp:624
+msgid "Y coordinate of the Julia parameter"
+msgstr "Y-coördinaat voor de Julia-parameter"
+
+#: fraqtive.cpp:626
+msgid "Iterations limit:"
+msgstr "Limiet van herhalingen:"
+
+#: fraqtive.cpp:630
+msgid "Maximum number of iterations to calculate"
+msgstr "Maximum aantal te berekenen herhalingen"
+
+#: fraqtive.cpp:632
+msgid "Detail level:"
+msgstr "Detailniveau:"
+
+#: fraqtive.cpp:636
+msgid "Amount of details to calculate"
+msgstr "Hoeveelheid te berekenen details"
+
+#: fraqtive.cpp:652
+msgid "Color gradient:"
+msgstr "Kleurverloop:"
+
+#: fraqtive.cpp:656
+msgid "Gradient used to display the fractal"
+msgstr "Kleurverloop dat wordt gebruikt om de fractal te weergeven"
+
+#: fraqtive.cpp:658
+msgid "Color scale:"
+msgstr "Kleurschaal:"
+
+#: fraqtive.cpp:662
+msgid "Scale of the color gradient"
+msgstr "Schaal van de kleurverloop"
+
+#: fraqtive.cpp:664
+msgid "Color offset:"
+msgstr "Kleurafwijking:"
+
+#: fraqtive.cpp:668
+msgid "Offset of the color gradient"
+msgstr "Afwijking van de kleurverloop"
+
+#: fraqtive.cpp:670
+msgid "Scroll colors:"
+msgstr "Kleuren schuiven:"
+
+#: fraqtive.cpp:675
+msgid ""
+"_: scroll direction\n"
+"Off"
+msgstr "Uit"
+
+#: fraqtive.cpp:676
+msgid ""
+"_: scroll direction\n"
+"Left"
+msgstr "Links"
+
+#: fraqtive.cpp:677
+msgid ""
+"_: scroll direction\n"
+"Right"
+msgstr "Rechts"
+
+#: fraqtive.cpp:683
+msgid "Scrolling direction"
+msgstr "Schuifrichting"
+
+#: fraqtive.cpp:684
+msgid "Scrolling speed"
+msgstr "Schuifsnelheid"
+
+#: fraqtive.cpp:686
+msgid "Background:"
+msgstr "Achtergrond:"
+
+#: fraqtive.cpp:689
+msgid "Color of the background area"
+msgstr "Kleur van het achtergrondgebied"
+
+#: fraqtive.cpp:691
+msgid "3D grid size:"
+msgstr "3D rastergrootte:"
+
+#: fraqtive.cpp:694
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: fraqtive.cpp:697
+msgid "Resolution of the 3D mesh"
+msgstr "Resolutie van de 3D-maas"
+
+#: fraqtive.cpp:699
+msgid "Height scale:"
+msgstr "Hoogteschaal:"
+
+#: fraqtive.cpp:704
+msgid "Height scale of the 3D mesh"
+msgstr "Hoogteschaal van de 3D-maas"
+
+#: fraqtive.cpp:714
+msgid "&Save Image..."
+msgstr "Afbeelding op&slaan..."
+
+#: fraqtive.cpp:718
+msgid "&Edit Gradient..."
+msgstr "Kleurverloop be&werken"
+
+#: fraqtive.cpp:720
+msgid "&Invert Gradient"
+msgstr "Kleurverloop om&keren..."
+
+#: fraqtive.cpp:724
+msgid "&To Mandelbrot"
+msgstr "Naar Mandelbro&t"
+
+#: fraqtive.cpp:732
+msgid "Show Parameters"
+msgstr "Parameters tonen"
+
+#: fraqtive.cpp:734
+msgid "Show Display"
+msgstr "Weergave tonen"
+
+#: fraqtive.cpp:736
+msgid "Show Preview"
+msgstr "Voorbeeld tonen"
+
+#: fraqtive.cpp:739
+msgid "Hide Parameters"
+msgstr "Parameters verbergen"
+
+#: fraqtive.cpp:740
+msgid "Hide Display"
+msgstr "Weergave verbergen"
+
+#: fraqtive.cpp:741
+msgid "Hide Preview"
+msgstr "Voorbeeld verbergen"
+
+#: gradeditor.cpp:24
+msgid "Gradient Editor"
+msgstr "Kleurverloopbewerker"
+
+#: gradeditor.cpp:45
+msgid "&Save As"
+msgstr "Op&slaan als"
+
+#: gradeditor.cpp:49
+msgid "Set &Default"
+msgstr "Stan&daard instellen"
+
+#: gradeditor.cpp:60
+msgid "&New"
+msgstr "&Nieuw"
+
+#: gradeditor.cpp:62
+msgid "&RGB Gradient"
+msgstr "&RGB-verloop"
+
+#: gradeditor.cpp:63
+msgid "&HSV Gradient"
+msgstr "&HSV-verloop"
+
+#: gradeditor.cpp:67
+msgid "&Invert"
+msgstr "&Omkeren"
+
+#: gradeditor.cpp:96
+msgid "Save Preset"
+msgstr "Voorinstelling opslaan"
+
+#: gradeditor.cpp:96
+msgid "Enter Preset Name:"
+msgstr "Naam voorinstelling:"
+
+#: gradeditor.cpp:108
+msgid "Do you want to set current gradient as the default gradient?"
+msgstr "Wilt u het huidige kleurverloop als standaard instellen?"
+
+#: gradeditor.cpp:139
+msgid "Current"
+msgstr "Huidige"
+
+#: gradeditor.cpp:141
+msgid "Presets"
+msgstr "Voorinstellingen"
+
+#: main.cpp:16
+msgid "Fraqtive"
+msgstr "Fraqtive"
+
+#: main.cpp:17
+msgid "Program for drawing Mandelbrot and Julia fractals."
+msgstr "Programma voor het tekenen van Mandelbrot- en Julia-fractalen"

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fraqtive
+Name[xx]=xxFraqtivexx
+Exec=fraqtive
+Icon=fraqtive
+Type=Application
+Comment=Program for drawing Mandelbrot and Julia fractals
+Comment[de]=Programm für das Zeichnen von Mandelbrot- und Julia-Fraktalen.
+Comment[et]=Mandelbroti ja Julia fraktaalide joonistamise rakendus
+Comment[it]=Programma per disegnare frattali di Mandelbrot e di Julia
+Comment[nl]=Programma voor het tekenen van Mandelbrot- en Julia-fractalen
+Comment[pt]=Um programa para desenhar fractais Mandelbrot e Júlia.
+Comment[ru]=Программа рисования фракталов Мандельброта и Джулиа
+Comment[sr]=Програм за исцртавање Манделброт и Јулиа фрактала
+Comment[sv]=Program för att rita Mandelbrot- och Julia-fraktaler
+Comment[xx]=xxProgram for drawing Mandelbrot and Julia fractalsxx

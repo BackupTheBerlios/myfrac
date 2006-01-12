@@ -1,0 +1,322 @@
+# translation of fraqtive.po into Russian
+# Gregory Mokhin <mok@kde.ru>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fraqtive\n"
+"POT-Creation-Date: 2005-07-30 01:50+0200\n"
+"PO-Revision-Date: 2005-08-24 21:05-0400\n"
+"Last-Translator: Gregory Mokhin <mok@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>"
+"=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Григорий Мохин"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "mok@kde.ru"
+
+#: fraqtive.cpp:225
+msgid "Image Size:"
+msgstr "Размер изображения:"
+
+#: fraqtive.cpp:229
+msgid "x"
+msgstr "x"
+
+#: fraqtive.cpp:239 fraqtive.cpp:260
+msgid "Save Image"
+msgstr "Сохранить изображение"
+
+#: fraqtive.cpp:253
+msgid "An invalid image size was entered."
+msgstr "Недопустимый размер изображения."
+
+#: fraqtive.cpp:261
+msgid "Generating Image..."
+msgstr "Создание изображения..."
+
+#: fraqtive.cpp:278
+msgid "Not enough memory to generate the fractal."
+msgstr "Недостаточно памяти для генерации фрактала."
+
+#: fraqtive.cpp:280
+msgid "Saving Image..."
+msgstr "Сохранение изображения..."
+
+#: fraqtive.cpp:288
+msgid "Failed to save the image file."
+msgstr "Изображение не было сохранено."
+
+#: fraqtive.cpp:497
+msgid "2D View"
+msgstr "Двумерный вид"
+
+#: fraqtive.cpp:500
+msgid "3D View"
+msgstr "Трёхмерный вид"
+
+#: fraqtive.cpp:503
+msgid "Parameters"
+msgstr "Параметры"
+
+#: fraqtive.cpp:508
+msgid "Display"
+msgstr "Отображение"
+
+#: fraqtive.cpp:512
+msgid "Preview"
+msgstr "Просмотр"
+
+#: fraqtive.cpp:586
+msgid "X coordinate:"
+msgstr "Координата X:"
+
+#: fraqtive.cpp:591
+msgid "X coordinate of the center of the view"
+msgstr "Координата X центра отображения"
+
+#: fraqtive.cpp:593
+msgid "Y coordinate:"
+msgstr "Координата Y:"
+
+#: fraqtive.cpp:598
+msgid "Y coordinate of the center of the view"
+msgstr "Координата Y центра отображения"
+
+#: fraqtive.cpp:600
+msgid "Zoom magnitude:"
+msgstr "Масштаб:"
+
+#: fraqtive.cpp:605
+msgid "Zoom order of maginitude"
+msgstr "Порядок масштаба"
+
+#: fraqtive.cpp:607
+msgid "Rotation angle:"
+msgstr "Угол вращения:"
+
+#: fraqtive.cpp:612
+msgid "View rotation angle in degrees"
+msgstr "Угол вращения отображения (град.)"
+
+#: fraqtive.cpp:614
+msgid "Julia X param.:"
+msgstr "Параметр X Джулиа:"
+
+#: fraqtive.cpp:618
+msgid "X coordinate of the Julia parameter"
+msgstr "Координата X параметра Джулиа"
+
+#: fraqtive.cpp:620
+msgid "Julia Y param.:"
+msgstr "Параметр Y Джулиа:"
+
+#: fraqtive.cpp:624
+msgid "Y coordinate of the Julia parameter"
+msgstr "Координата Y параметра Джулиа"
+
+#: fraqtive.cpp:626
+msgid "Iterations limit:"
+msgstr "Предел итераций:"
+
+#: fraqtive.cpp:630
+msgid "Maximum number of iterations to calculate"
+msgstr "Предельное число рассчитываемых итераций"
+
+#: fraqtive.cpp:632
+msgid "Detail level:"
+msgstr "Уровень детализации:"
+
+#: fraqtive.cpp:636
+msgid "Amount of details to calculate"
+msgstr "Число рассчитываемых деталей"
+
+#: fraqtive.cpp:652
+msgid "Color gradient:"
+msgstr "Градиент цвета:"
+
+#: fraqtive.cpp:656
+msgid "Gradient used to display the fractal"
+msgstr "Градиент при показе фрактала"
+
+#: fraqtive.cpp:658
+msgid "Color scale:"
+msgstr "Шкала цвета:"
+
+#: fraqtive.cpp:662
+msgid "Scale of the color gradient"
+msgstr "Шкала градиента цвета"
+
+#: fraqtive.cpp:664
+msgid "Color offset:"
+msgstr "Смещение цвета:"
+
+#: fraqtive.cpp:668
+msgid "Offset of the color gradient"
+msgstr "Смещение градиента цвета"
+
+#: fraqtive.cpp:670
+msgid "Scroll colors:"
+msgstr "Цвета прокрутки:"
+
+#: fraqtive.cpp:675
+msgid ""
+"_: scroll direction\n"
+"Off"
+msgstr "Выкл."
+
+#: fraqtive.cpp:676
+msgid ""
+"_: scroll direction\n"
+"Left"
+msgstr "Влево"
+
+#: fraqtive.cpp:677
+msgid ""
+"_: scroll direction\n"
+"Right"
+msgstr "Вправо"
+
+#: fraqtive.cpp:683
+msgid "Scrolling direction"
+msgstr "Направление прокрутки"
+
+#: fraqtive.cpp:684
+msgid "Scrolling speed"
+msgstr "Скорость прокрутки"
+
+#: fraqtive.cpp:686
+msgid "Background:"
+msgstr "Фон:"
+
+#: fraqtive.cpp:689
+msgid "Color of the background area"
+msgstr "Цвет фона"
+
+#: fraqtive.cpp:691
+msgid "3D grid size:"
+msgstr "Размер трёхмерной сетки:"
+
+#: fraqtive.cpp:694
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: fraqtive.cpp:697
+msgid "Resolution of the 3D mesh"
+msgstr "Разрешение трёхмерной сетки"
+
+#: fraqtive.cpp:699
+msgid "Height scale:"
+msgstr "Шкала по высоте:"
+
+#: fraqtive.cpp:704
+msgid "Height scale of the 3D mesh"
+msgstr "Шкала по высоте трёхмерной сетки"
+
+#: fraqtive.cpp:714
+msgid "&Save Image..."
+msgstr "&Сохранить изображение..."
+
+#: fraqtive.cpp:718
+msgid "&Edit Gradient..."
+msgstr "&Изменить градиент..."
+
+#: fraqtive.cpp:720
+msgid "&Invert Gradient"
+msgstr "&Обратить градиент"
+
+#: fraqtive.cpp:724
+msgid "&To Mandelbrot"
+msgstr "&В фрактал Мандельброта"
+
+#: fraqtive.cpp:732
+msgid "Show Parameters"
+msgstr "Показать параметры"
+
+#: fraqtive.cpp:734
+msgid "Show Display"
+msgstr "Показать отображение"
+
+#: fraqtive.cpp:736
+msgid "Show Preview"
+msgstr "Предпросмотр"
+
+#: fraqtive.cpp:739
+msgid "Hide Parameters"
+msgstr "Скрыть параметры"
+
+#: fraqtive.cpp:740
+msgid "Hide Display"
+msgstr "Скрыть отображение"
+
+#: fraqtive.cpp:741
+msgid "Hide Preview"
+msgstr "Скрыть предварительный просмотр"
+
+#: gradeditor.cpp:24
+msgid "Gradient Editor"
+msgstr "Редактор градиента"
+
+#: gradeditor.cpp:45
+msgid "&Save As"
+msgstr "&Сохранить как"
+
+#: gradeditor.cpp:49
+msgid "Set &Default"
+msgstr "Задать &по умолчанию"
+
+#: gradeditor.cpp:60
+msgid "&New"
+msgstr "&Создать"
+
+#: gradeditor.cpp:62
+msgid "&RGB Gradient"
+msgstr "Градиент &RGB"
+
+#: gradeditor.cpp:63
+msgid "&HSV Gradient"
+msgstr "Градиент &HSV"
+
+#: gradeditor.cpp:67
+msgid "&Invert"
+msgstr "&Обратить"
+
+#: gradeditor.cpp:96
+msgid "Save Preset"
+msgstr "Сохранить набор параметров"
+
+#: gradeditor.cpp:96
+msgid "Enter Preset Name:"
+msgstr "Введите имя набора:"
+
+#: gradeditor.cpp:108
+msgid "Do you want to set current gradient as the default gradient?"
+msgstr "Сохранить текущий градиент как градиент по умолчанию?"
+
+#: gradeditor.cpp:139
+msgid "Current"
+msgstr "Текущий"
+
+#: gradeditor.cpp:141
+msgid "Presets"
+msgstr "Наборы"
+
+#: main.cpp:16
+msgid "Fraqtive"
+msgstr "Fraqtive"
+
+#: main.cpp:17
+msgid "Program for drawing Mandelbrot and Julia fractals."
+msgstr "Программа рисования фракталов Мандельброта и Джулиа"

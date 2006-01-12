@@ -1,0 +1,803 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY fraqtive "<application
+>Fraqtive</application
+>">
+  <!ENTITY kappname "&fraqtive;">
+  <!ENTITY package "extragear-graphics">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE">
+]>
+<book lang="&language;">
+
+<bookinfo>
+<title
+>Das Handbuch zu &fraqtive;</title>
+
+<authorgroup>
+<author
+><firstname
+>Michał</firstname
+> <surname
+>Męciński</surname
+> <affiliation
+> <address
+><email
+>mimec@users.sourceforge.net</email
+></address>
+</affiliation>
+</author>
+</authorgroup>
+
+<othercredit role="translator"
+> <firstname
+>René</firstname
+> <surname
+>Landert</surname
+> <affiliation
+><address
+><email
+>rene.landert@bluewin.ch</email
+> </address
+> </affiliation
+> <contrib
+>Deutsche Übersetzung </contrib
+> </othercredit
+>  
+
+<copyright>
+<year
+>2005</year>
+<holder
+>Michał Męciński</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2005-07-04</date>
+<releaseinfo
+>0.3.0</releaseinfo>
+
+<abstract>
+<para
+>&fraqtive; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Fraqtive</keyword>
+<keyword
+>Fraktal</keyword>
+<keyword
+>Mandelbrot</keyword>
+<keyword
+>Julia</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+
+	<title
+>Einleitung</title>
+
+	<para
+>&fraqtive; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen. Es benutzt einen sehr schnellen Algorithmus und erzeugt qualitativ hochwertige und geglättete Bilder. Es ist vollständig interaktiv und erlaubt die Echtzeitnavigation mit der Maus sowie die dynamische Erzeugung von Julia-Fraktal Vorschauen. 3D-Ansichten mit OpenGL-Rendering der Fraktale werden ebenso unterstützt.</para>
+
+</chapter>
+
+<chapter id="using-fraqtive">
+
+	<title
+>Der Gebrauch von &fraqtive;</title>
+
+	<sect1 id="user-interface">
+
+		<title
+>Benutzeroberfläche</title>
+
+		<para
+>Der Hauptteil des Fensters zeigt die Ansicht eines Mandelbrot-Fraktals. Die Reiter über der Ansicht werden gebraucht, um zwischen der normalen zweidimensionalen und der dreidimensionalen Ansicht umzuschalten. Die Maus wird gebraucht, um - wie unten beschrieben - die Ansicht zu vergrößern, zu verschieben und zu drehen.</para>
+
+		<para
+>Durch das Bewegen des Mauszeigers über dem Mandelbrot-Fraktal im Hauptfenster wird eine dynamische Vorschau des Julia-Fraktals im rechten unteren Teil des Fensters gezeichnet. Die Form des Julia-Fraktals hängt ab von den Koordinaten des Mauszeigers. Ein Doppelklick mit der linken Maustaste zeigt das Julia-Fraktal im Hauptfenster. Für die Rückkehr zur Mandelbrot-Ansicht wählen Sie den Befehl  <menuchoice
+> <shortcut
+><keycombo action="simul"
+>&Alt;<keycap
+>Nach oben</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Gehe zu</guimenu
+><guimenuitem
+>Zum Mandelbrot</guimenuitem
+></menuchoice
+>.</para>
+
+		<sect2 id="navigation-2d">
+
+			<title
+>2D-Ansicht</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+><mousebutton
+>linke Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Vergrößert die Ansicht im ausgewählten Punkt.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+>&Strg;<mousebutton
+>linke Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Vergrößert oder verkleinert die Ansicht.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+>&Umschalt;<mousebutton
+>linke Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Drehung der Ansicht um das Zentrum.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+><mousebutton
+>rechte Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Verschiebt den Bereich der Ansicht.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+		<sect2 id="navigation-3d">
+
+			<title
+>3D-Ansicht</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+><mousebutton
+>linke Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Dreht die Ansicht um die X- und Y-Achse.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><keycombo action="simul"
+><mousebutton
+>rechte Maustaste</mousebutton
+></keycombo
+></term>
+				<listitem
+><para
+><action
+>Dreht die Ansicht um die Z-Achse.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+	</sect1>
+
+</chapter>
+
+<chapter id="commands">
+
+	<title
+>Befehlsreferenz</title>
+
+	<sect1 id="fraqtive-mainwindow">
+
+		<title
+>Hauptfenster</title>
+
+		<sect2>
+
+			<title
+>Das Menü Datei</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Strg;<keycap
+>S</keycap
+></keycombo
+></shortcut
+><guimenu
+>Datei</guimenu
+><guimenuitem
+>Bild speichern...</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Erzeugt und speichert ein 2D-Bild. Die Auflösung des Bildes und das Dateiformat können ausgewählt werden.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Strg;<keycap
+>Q</keycap
+></keycombo
+></shortcut
+><guimenu
+>Datei</guimenu
+><guimenuitem
+>Beenden</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Beendet die Anwendung.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+		<sect2>
+
+			<title
+>Das Menü Bearbeiten</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Strg;<keycap
+>C</keycap
+></keycombo
+></shortcut
+><guimenu
+>Bearbeiten</guimenu
+><guimenuitem
+>Kopieren</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Kopiert das momentan angezeigte Bild (entweder 2D or 3D) in die Zwischenablage.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Strg;<keycap
+>E</keycap
+></keycombo
+></shortcut
+><guimenu
+>Bearbeiten</guimenu
+><guimenuitem
+>Verlauf bearbeiten...</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Öffnet den Verlaufseditor. Er erlaubt die Wahl eines Verlaufs aus einer Liste von Voreinstellungen, das Verändern von bestehenden oder das Erzeugen von neuen Verläufen. Verläufe können editiert werden durch das Verschieben, Hinzufügen oder Entfernen von Punkten in den drei Kurvenbereichen mittels der Maus. Die Kurvenbereiche repräsentieren die rote, grüne und blaue Komponente oder die Leuchtkraft, Sättigung und Wert, abhängig vom Typ des Farbverlaufs.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Strg;<keycap
+>X</keycap
+></keycombo
+></shortcut
+><guimenu
+>Bearbeiten</guimenu
+><guimenuitem
+>Verlauf umkehren</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Kehrt den Verlauf rückwärts um.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+		<sect2>
+
+			<title
+>Das Menü Gehe zu</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Alt;<keycap
+>Nach oben</keycap
+></keycombo
+></shortcut
+><guimenu
+>Gehe zu</guimenu
+><guimenuitem
+>Zum Mandelbrot</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Rückkehr vom Julia-Modus zum Mandelbrot-Modus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Alt;<keycap
+>Nach links</keycap
+></keycombo
+></shortcut
+><guimenu
+>Gehe zu</guimenu
+><guimenuitem
+>Zurück</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Gehe einen Schritt zurück im Verlauf der Positionen.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Alt;<keycap
+>Nach rechts</keycap
+></keycombo
+></shortcut
+><guimenu
+>Gehe zu</guimenu
+><guimenuitem
+>Nach vorne</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Gehe einen Schritt vorwärts im Verlauf der Positionen.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Alt;<keycap
+>Pos1</keycap
+></keycombo
+></shortcut
+><guimenu
+>Gehe zu</guimenu
+><guimenuitem
+>Dateianfang</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Setzt die Standard Ansicht zur Anzeige des gesamten Fraktals.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+		<sect2>
+
+			<title
+>Das Menü Einstellungen</title>
+
+			<variablelist>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Werkzeugleiste anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Zeigt die Werkzeugleiste an oder blendet sie aus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Statusleiste anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Zeigt die Statusleiste an oder blendet sie aus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Parameter anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Zeigt das Parameterfenster an oder blendet es aus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Anzeige anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Zeigt das Ansichtsfenster an oder blendet es aus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Vorschau anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Zeigt die Julia Vorschau an oder blendet sie aus.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Kurzbefehle festlegen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Öffnet den Dialog zum Festlegen der Tastenkombinationen.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Werkzeugleisten einrichten...</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Öffnet den Dialog zum Konfigurieren der Werkzeugleiste.</action
+></para
+></listitem>
+			</varlistentry>
+			</variablelist>
+
+		</sect2>
+
+		<sect2>
+
+			<title
+>Das Menü Hilfe</title>
+&help.menu.documentation; </sect2>
+
+	</sect1>
+
+	<sect1 id="fraqtive-parameters">
+
+		<title
+>Die Karteikarte Parameter</title>
+
+		<variablelist>
+		<varlistentry>
+			<term
+>X-Koordinate</term>
+			<listitem
+><para
+>Die X-Koordinate des Zentrums der Ansicht.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Y-Koordinate</term>
+			<listitem
+><para
+>Die Y-Koordinate des Zentrums der Ansicht.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Zoomfaktor</term>
+			<listitem
+><para
+>Größenordnung des Faktors der Magnitude der Ansicht. Zum Beispiel bedeutet <literal
+>1</literal
+> die <literal
+>10-fache</literal
+> Verstärkung, <literal
+>2</literal
+> bedeutet die <literal
+>100-fache</literal
+> Verstärkung, &etc;.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Drehwinkel</term>
+			<listitem
+><para
+>Drehwinkel, gemessen in Grad, im Gegenuhrzeigersinn.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Julia X-Parameter</term>
+			<listitem
+><para
+>Die X-Koordinate des Parameters des Julia-Fraktals.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Julia Y-Parameter</term>
+			<listitem
+><para
+>Die Y-Koordinate des Parameters des Julia-Fraktals.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Iterationen begrenzen</term>
+			<listitem
+><para
+>Maximale Anzahl der zu berechnenden Iterationen. Dieser Grenzwert hängt auch vom aktuellen Zoomfaktor ab.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Detailstufe</term>
+			<listitem
+><para
+>Menge der zu berechnenden Details. Die Verkleinerung dieses Wertes erhöht die Rechengeschwindigkeit, verringert aber die Bildqualität.</para
+></listitem>
+		</varlistentry>
+		</variablelist>
+
+	</sect1>
+
+	<sect1 id="fraqtive-display">
+
+		<title
+>Die Karteikarte Anzeige</title>
+
+		<variablelist>
+		<varlistentry>
+			<term
+>Farbverlauf</term>
+			<listitem
+><para
+>Farbverlauf, der verwendet wird , um das Fraktal anzuzeigen. Ein Mausklick öffnet den Verlaufseditor.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Farbenskala</term>
+			<listitem
+><para
+>Skala des Farbverlaufs.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Farbenversatz</term>
+			<listitem
+><para
+>Versatz des Farbverlaufs.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Farben rollen</term>
+			<listitem
+><para
+>Die Geschwindigkeit und Richtung der rollenden Farbveränderung.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Hintergrund</term>
+			<listitem
+><para
+>Farbe des Hintergrunds. Ein Mausklick auf den Knopf öffnet den Dialog zur Farbenauswahl.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>3D-Gittergröße</term>
+			<listitem
+><para
+>Auflösung des Gitternetzes zum Rendering des Fraktals im 3D-Modus.</para
+></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term
+>Höhenskala</term>
+			<listitem
+><para
+>Höhenskala des Gitternetzes im 3D-Modus.</para
+></listitem>
+		</varlistentry>
+		</variablelist>
+
+	</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+	<title
+>Mitwirkende und Lizenz</title>
+
+	<para
+>&fraqtive;</para>
+	<para
+>Programmcopyright 2005 Michał Męciński <email
+>mimec@users.sourceforge.net</email
+></para>
+
+	<para
+>Copyright der Dokumentation 2005 Michał Męciński <email
+>mimec@users.sourceforge.net</email
+></para>
+
+<para
+>Deutsche Übersetzung durch René Landert<email
+>rene.landert@bluewin.ch</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+<appendix id="installation">
+
+	<title
+>Installation</title>
+
+	<sect1 id="requirements">
+		<title
+>Voraussetzungen</title>
+
+		<itemizedlist>
+			<listitem
+><para
+>&kde; Version 3.2 oder neuer</para
+></listitem>
+			<listitem
+><para
+>OpenGL und GLU Bibliotheken</para
+></listitem>
+		</itemizedlist>
+
+	</sect1>
+
+	<sect1 id="compilation">
+
+		<title
+>Kompilierung und Installation</title>
+&install.compile.documentation; </sect1>
+
+</appendix>
+
+&documentation.index;
+
+</book>

@@ -1,0 +1,320 @@
+# translation of fraqtive.po to Estonian
+# Marek Laane <bald@starman.ee>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fraqtive\n"
+"POT-Creation-Date: 2005-07-30 01:50+0200\n"
+"PO-Revision-Date: 2005-07-19 11:33+0300\n"
+"Last-Translator: Marek Laane <bald@starman.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.1\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Marek Laane"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "bald@starman.ee"
+
+#: fraqtive.cpp:225
+msgid "Image Size:"
+msgstr "Pildi suurus:"
+
+#: fraqtive.cpp:229
+msgid "x"
+msgstr "x"
+
+#: fraqtive.cpp:239 fraqtive.cpp:260
+msgid "Save Image"
+msgstr "Pildi salvestamine"
+
+#: fraqtive.cpp:253
+msgid "An invalid image size was entered."
+msgstr "Anti vigane pildi suurus."
+
+#: fraqtive.cpp:261
+msgid "Generating Image..."
+msgstr "Pildi loomine..."
+
+#: fraqtive.cpp:278
+msgid "Not enough memory to generate the fractal."
+msgstr "Fraktaali loomiseks napib mälu."
+
+#: fraqtive.cpp:280
+msgid "Saving Image..."
+msgstr "Pildi salvestamine..."
+
+#: fraqtive.cpp:288
+msgid "Failed to save the image file."
+msgstr "Pildifaili salvestamine ebaõnnestus."
+
+#: fraqtive.cpp:497
+msgid "2D View"
+msgstr "Tasapinnaline vaade"
+
+#: fraqtive.cpp:500
+msgid "3D View"
+msgstr "Ruumiline vaade"
+
+#: fraqtive.cpp:503
+msgid "Parameters"
+msgstr "Parameetrid"
+
+#: fraqtive.cpp:508
+msgid "Display"
+msgstr "Kuva"
+
+#: fraqtive.cpp:512
+msgid "Preview"
+msgstr "Eelvaatlus"
+
+#: fraqtive.cpp:586
+msgid "X coordinate:"
+msgstr "X-koordinaat:"
+
+#: fraqtive.cpp:591
+msgid "X coordinate of the center of the view"
+msgstr "Vaate keskme X-koordinaat"
+
+#: fraqtive.cpp:593
+msgid "Y coordinate:"
+msgstr "Y-koordinaat:"
+
+#: fraqtive.cpp:598
+msgid "Y coordinate of the center of the view"
+msgstr "Vaate keskme Y-koordinaat"
+
+#: fraqtive.cpp:600
+msgid "Zoom magnitude:"
+msgstr "Suurendustegur:"
+
+#: fraqtive.cpp:605
+msgid "Zoom order of maginitude"
+msgstr "Suurendustegur"
+
+#: fraqtive.cpp:607
+msgid "Rotation angle:"
+msgstr "Pöördenurk:"
+
+#: fraqtive.cpp:612
+msgid "View rotation angle in degrees"
+msgstr "Vaate pööramise nurk kraadides"
+
+#: fraqtive.cpp:614
+msgid "Julia X param.:"
+msgstr "Julia X-parameeter:"
+
+#: fraqtive.cpp:618
+msgid "X coordinate of the Julia parameter"
+msgstr "Julia parameetri X-koordinaat"
+
+#: fraqtive.cpp:620
+msgid "Julia Y param.:"
+msgstr "Julia Y-parameeter:"
+
+#: fraqtive.cpp:624
+msgid "Y coordinate of the Julia parameter"
+msgstr "Julia parameetri Y-koordinaat"
+
+#: fraqtive.cpp:626
+msgid "Iterations limit:"
+msgstr "Korduste piirang:"
+
+#: fraqtive.cpp:630
+msgid "Maximum number of iterations to calculate"
+msgstr "Maksimaalne arvutatav korduste arv"
+
+#: fraqtive.cpp:632
+msgid "Detail level:"
+msgstr "Detailsus:"
+
+#: fraqtive.cpp:636
+msgid "Amount of details to calculate"
+msgstr "Arvutatavate detailide hulk"
+
+#: fraqtive.cpp:652
+msgid "Color gradient:"
+msgstr "Värviüleminek:"
+
+#: fraqtive.cpp:656
+msgid "Gradient used to display the fractal"
+msgstr "Fraktaali kuvamiseks kasutatav üleminek"
+
+#: fraqtive.cpp:658
+msgid "Color scale:"
+msgstr "Värviskaala:"
+
+#: fraqtive.cpp:662
+msgid "Scale of the color gradient"
+msgstr "Värviülemineku skaala"
+
+#: fraqtive.cpp:664
+msgid "Color offset:"
+msgstr "Värvinihe:"
+
+#: fraqtive.cpp:668
+msgid "Offset of the color gradient"
+msgstr "Värviülemineku nihe"
+
+#: fraqtive.cpp:670
+msgid "Scroll colors:"
+msgstr "Värvide kerimine:"
+
+#: fraqtive.cpp:675
+msgid ""
+"_: scroll direction\n"
+"Off"
+msgstr "Väljas"
+
+#: fraqtive.cpp:676
+msgid ""
+"_: scroll direction\n"
+"Left"
+msgstr "Vasakule"
+
+#: fraqtive.cpp:677
+msgid ""
+"_: scroll direction\n"
+"Right"
+msgstr "Paremale"
+
+#: fraqtive.cpp:683
+msgid "Scrolling direction"
+msgstr "Kerimise suund"
+
+#: fraqtive.cpp:684
+msgid "Scrolling speed"
+msgstr "Kerimise kiirus"
+
+#: fraqtive.cpp:686
+msgid "Background:"
+msgstr "Taust:"
+
+#: fraqtive.cpp:689
+msgid "Color of the background area"
+msgstr "Tausta värv"
+
+#: fraqtive.cpp:691
+msgid "3D grid size:"
+msgstr "Ruumilise alusvõrgu suurus:"
+
+#: fraqtive.cpp:694
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: fraqtive.cpp:697
+msgid "Resolution of the 3D mesh"
+msgstr "Ruumilise alusvõrgu lahutus"
+
+#: fraqtive.cpp:699
+msgid "Height scale:"
+msgstr "Kõrguse skaala:"
+
+#: fraqtive.cpp:704
+msgid "Height scale of the 3D mesh"
+msgstr "Ruumilise alusvõrgu kõrguse skaala"
+
+#: fraqtive.cpp:714
+msgid "&Save Image..."
+msgstr "&Salvesta pilt..."
+
+#: fraqtive.cpp:718
+msgid "&Edit Gradient..."
+msgstr "Muuda ül&eminekut..."
+
+#: fraqtive.cpp:720
+msgid "&Invert Gradient"
+msgstr "&Inverteeri üleminek"
+
+#: fraqtive.cpp:724
+msgid "&To Mandelbrot"
+msgstr "Mandelbro&tiks"
+
+#: fraqtive.cpp:732
+msgid "Show Parameters"
+msgstr "Parameetrite näitamine"
+
+#: fraqtive.cpp:734
+msgid "Show Display"
+msgstr "Kuva näitamine"
+
+#: fraqtive.cpp:736
+msgid "Show Preview"
+msgstr "Eelvaatluse näitamine"
+
+#: fraqtive.cpp:739
+msgid "Hide Parameters"
+msgstr "Parameetrite peitmine"
+
+#: fraqtive.cpp:740
+msgid "Hide Display"
+msgstr "Kuva peitmine"
+
+#: fraqtive.cpp:741
+msgid "Hide Preview"
+msgstr "Eelvaatluse peitmine"
+
+#: gradeditor.cpp:24
+msgid "Gradient Editor"
+msgstr "Üleminekute redaktor"
+
+#: gradeditor.cpp:45
+msgid "&Save As"
+msgstr "&Salvesta kui"
+
+#: gradeditor.cpp:49
+msgid "Set &Default"
+msgstr "Sea &vaikeväärtuseks"
+
+#: gradeditor.cpp:60
+msgid "&New"
+msgstr "&Uus"
+
+#: gradeditor.cpp:62
+msgid "&RGB Gradient"
+msgstr "&RGB üleminek"
+
+#: gradeditor.cpp:63
+msgid "&HSV Gradient"
+msgstr "&HSV üleminek"
+
+#: gradeditor.cpp:67
+msgid "&Invert"
+msgstr "&Inverteeri"
+
+#: gradeditor.cpp:96
+msgid "Save Preset"
+msgstr "Valmismäärangu salvestamine"
+
+#: gradeditor.cpp:96
+msgid "Enter Preset Name:"
+msgstr "Valmismäärangu nimi:"
+
+#: gradeditor.cpp:108
+msgid "Do you want to set current gradient as the default gradient?"
+msgstr "Kas määrata käesolev üleminek vaikeüleminekuks?"
+
+#: gradeditor.cpp:139
+msgid "Current"
+msgstr "Käesolev"
+
+#: gradeditor.cpp:141
+msgid "Presets"
+msgstr "Valmismäärangud"
+
+#: main.cpp:16
+msgid "Fraqtive"
+msgstr "Fraqtive"
+
+#: main.cpp:17
+msgid "Program for drawing Mandelbrot and Julia fractals."
+msgstr "Mandelbroti ja Julia fraktaalide joonistamise rakendus."
