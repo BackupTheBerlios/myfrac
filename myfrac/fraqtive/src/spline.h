@@ -1,3 +1,22 @@
+
+/* ----------------------------------------------------------------------
+   $Id: spline.h,v 1.2 2006/01/15 11:21:53 r23 Exp $
+
+   myFrac
+   http://developer.berlios.de/projects/myfrac/
+
+   Copyright (c) 2006 by r23
+-------------------------------------------------------------------------
+   Based on:
+
+   Fraqtive Version 0.3.1
+   http://www.mimec.w.pl
+
+   Copyright (C) 2005 Michal Mecinski
+-------------------------------------------------------------------------
+   Released under the GNU General Public License
+------------------------------------------------------------------------- */
+
 /**************************************************************************
 * This file is part of the Fraqtive program.
 * Copyright (C) 2005 Michal Mecinski.
