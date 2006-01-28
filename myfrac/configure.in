@@ -40,7 +40,7 @@ dnl Perform program name transformation
 AC_ARG_PROGRAM
 
 dnl Automake doc recommends to do this only here. (Janos)
-AM_INIT_AUTOMAKE(fraqtive-0.3.1, "3.4.90") dnl searches for some needed programs
+AM_INIT_AUTOMAKE(myfrac, "3.4.90") dnl searches for some needed programs
 
 KDE_SET_PREFIX
 
@@ -75,7 +75,7 @@ fi
 KDE_INIT_DOXYGEN([KEG Graphics API Reference], [Version $VERSION])
 
 dnl =======================================================
-dnl FILE: ./fraqtive/configure.in.in
+dnl FILE: ./myfrac/configure.in.in
 dnl =======================================================
 
 #MIN_CONFIG(3.2)
@@ -87,15 +87,15 @@ AC_CHECK_KDEMAXPATHLEN
 AC_HAVE_GL
 KDE_CREATE_SUBDIRSLIST
 AM_CONDITIONAL(doc_SUBDIR_included, test "x$doc_SUBDIR_included" = xyes)
-AM_CONDITIONAL(fraqtive_SUBDIR_included, test "x$fraqtive_SUBDIR_included" = xyes)
+AM_CONDITIONAL(myfrac_SUBDIR_included, test "x$myfrac_SUBDIR_included" = xyes)
 AM_CONDITIONAL(po_SUBDIR_included, test "x$po_SUBDIR_included" = xyes)
 AC_CONFIG_FILES([ Makefile ])
 AC_CONFIG_FILES([ doc/Makefile ])
 AC_CONFIG_FILES([ doc/de/Makefile ])
 AC_CONFIG_FILES([ doc/en/Makefile ])
-AC_CONFIG_FILES([ fraqtive/Makefile ])
-AC_CONFIG_FILES([ fraqtive/src/Makefile ])
-AC_CONFIG_FILES([ fraqtive/src/pics/Makefile ])
+AC_CONFIG_FILES([ myfrac/Makefile ])
+AC_CONFIG_FILES([ myfrac/src/Makefile ])
+AC_CONFIG_FILES([ myfrac/src/pics/Makefile ])
 AC_CONFIG_FILES([ po/Makefile ])
 AC_CONFIG_FILES([ po/de/Makefile ])
 AC_CONFIG_FILES([ po/et/Makefile ])
