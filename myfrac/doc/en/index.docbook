@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
-  <!ENTITY fraqtive "<application>Fraqtive</application>">
-  <!ENTITY kappname "&fraqtive;">
+  <!ENTITY myfrac "<application>MyFrac</application>">
+  <!ENTITY kappname "&myfrac;">
   <!ENTITY package "extragear-graphics">
   <!ENTITY % addindex "IGNORE">
   <!ENTITY % English "INCLUDE">
@@ -9,7 +9,7 @@
 <book lang="&language;">
 
 <bookinfo>
-<title>The &fraqtive; Handbook</title>
+<title>The &myfrac; Handbook</title>
 
 <authorgroup>
 <author>
@@ -34,12 +34,12 @@
 <releaseinfo>0.3.0</releaseinfo>
 
 <abstract>
-<para>&fraqtive; is a program for drawing Mandelbrot and Julia fractals.</para>
+<para>&myfrac; is a program for drawing Mandelbrot and Julia fractals.</para>
 </abstract>
 
 <keywordset>
 <keyword>KDE</keyword>
-<keyword>fraqtive</keyword>
+<keyword>myfrac</keyword>
 <keyword>fractal</keyword>
 <keyword>Mandelbrot</keyword>
 <keyword>Julia</keyword>
@@ -51,7 +51,7 @@
 
 	<title>Introduction</title>
 
-	<para>&fraqtive; is a program for drawing Mandelbrot and Julia fractals.
+	<para>&myfrac; is a program for drawing Mandelbrot and Julia fractals.
 	It uses a very fast algorithm and generates high quality, smooth images.
 	It is fully interactive, allowing for real-time mouse navigation and
 	dynamic generation of the Julia fractal preview. OpenGL-rendered 3D view
@@ -59,9 +59,9 @@
 
 </chapter>
 
-<chapter id="using-fraqtive">
+<chapter id="using-myfrac">
 
-	<title>Using &fraqtive;</title>
+	<title>Using &myfrac;</title>
 
 	<sect1 id="user-interface">
 
@@ -130,7 +130,7 @@
 
 	<title>Command Reference</title>
 
-	<sect1 id="fraqtive-mainwindow">
+	<sect1 id="myfrac-mainwindow">
 
 		<title>Main Window</title>
 
@@ -243,7 +243,7 @@
 
 	</sect1>
 
-	<sect1 id="fraqtive-parameters">
+	<sect1 id="myfrac-parameters">
 
 		<title>Parameters Tab</title>
 
@@ -284,7 +284,7 @@
 
 	</sect1>
 
-	<sect1 id="fraqtive-display">
+	<sect1 id="myfrac-display">
 
 		<title>Display Tab</title>
 
@@ -327,7 +327,7 @@
 
 	<title>Credits and License</title>
 
-	<para>&fraqtive;</para>
+	<para>&myfrac;</para>
 	<para>Program copyright 2005 Michał Męciński <email>mimec@users.sourceforge.net</email></para>
 
 	<para>Documentation copyright 2005 Michał Męciński <email>mimec@users.sourceforge.net</email></para>

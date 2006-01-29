@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
-  <!ENTITY fraqtive "<application
->Fraqtive</application
+  <!ENTITY myfrac "<application
+>MyFrac</application
 >">
-  <!ENTITY kappname "&fraqtive;">
+  <!ENTITY kappname "&myfrac;">
   <!ENTITY package "extragear-graphics">
   <!ENTITY % addindex "IGNORE">
   <!ENTITY % German "INCLUDE">
@@ -12,7 +12,7 @@
 
 <bookinfo>
 <title
->Das Handbuch zu &fraqtive;</title>
+>Das Handbuch zu &myfrac;</title>
 
 <authorgroup>
 <author
@@ -62,14 +62,14 @@
 
 <abstract>
 <para
->&fraqtive; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen.</para>
+>&myfrac; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen.</para>
 </abstract>
 
 <keywordset>
 <keyword
 >KDE</keyword>
 <keyword
->Fraqtive</keyword>
+>MyFrac</keyword>
 <keyword
 >Fraktal</keyword>
 <keyword
@@ -86,14 +86,14 @@
 >Einleitung</title>
 
 	<para
->&fraqtive; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen. Es benutzt einen sehr schnellen Algorithmus und erzeugt qualitativ hochwertige und geglättete Bilder. Es ist vollständig interaktiv und erlaubt die Echtzeitnavigation mit der Maus sowie die dynamische Erzeugung von Julia-Fraktal Vorschauen. 3D-Ansichten mit OpenGL-Rendering der Fraktale werden ebenso unterstützt.</para>
+>&myfrac; ist ein Programm zum Zeichnen von Mandelbrot- und Julia-Fraktalen. Es benutzt einen sehr schnellen Algorithmus und erzeugt qualitativ hochwertige und geglättete Bilder. Es ist vollständig interaktiv und erlaubt die Echtzeitnavigation mit der Maus sowie die dynamische Erzeugung von Julia-Fraktal Vorschauen. 3D-Ansichten mit OpenGL-Rendering der Fraktale werden ebenso unterstützt.</para>
 
 </chapter>
 
-<chapter id="using-fraqtive">
+<chapter id="using-myfrac">
 
 	<title
->Der Gebrauch von &fraqtive;</title>
+>Der Gebrauch von &myfrac;</title>
 
 	<sect1 id="user-interface">
 
@@ -231,7 +231,7 @@
 	<title
 >Befehlsreferenz</title>
 
-	<sect1 id="fraqtive-mainwindow">
+	<sect1 id="myfrac-mainwindow">
 
 		<title
 >Hauptfenster</title>
@@ -594,7 +594,7 @@
 
 	</sect1>
 
-	<sect1 id="fraqtive-parameters">
+	<sect1 id="myfrac-parameters">
 
 		<title
 >Die Karteikarte Parameter</title>
@@ -676,7 +676,7 @@
 
 	</sect1>
 
-	<sect1 id="fraqtive-display">
+	<sect1 id="myfrac-display">
 
 		<title
 >Die Karteikarte Anzeige</title>
@@ -750,7 +750,7 @@
 >Mitwirkende und Lizenz</title>
 
 	<para
->&fraqtive;</para>
+>&myfrac;</para>
 	<para
 >Programmcopyright 2005 Michał Męciński <email
 >mimec@users.sourceforge.net</email
