@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myfrac\n"
+"POT-Creation-Date: 2005-07-30 01:50+0200\n"
+"PO-Revision-Date: 2005-07-19 10:24+0100\n"
+"Last-Translator: José Nuno Coelho Pires <jncp@netcabo.pt>\n"
+"Language-Team: pt <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "José Nuno Pires,Pedro Morais"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "jncp@netcabo.pt,morais@kde.org"
+
+#: myfrac.cpp:225
+msgid "Image Size:"
+msgstr "Tamanho da Imagem:"
+
+#: myfrac.cpp:229
+msgid "x"
+msgstr "x"
+
+#: myfrac.cpp:239 myfrac.cpp:260
+msgid "Save Image"
+msgstr "Gravar a Imagem"
+
+#: myfrac.cpp:253
+msgid "An invalid image size was entered."
+msgstr "Foi introduzido um tamanho de imagem inválido."
+
+#: myfrac.cpp:261
+msgid "Generating Image..."
+msgstr "A Gerar a Imagem..."
+
+#: myfrac.cpp:278
+msgid "Not enough memory to generate the fractal."
+msgstr "Não há memória suficiente para gerar o fractal."
+
+#: myfrac.cpp:280
+msgid "Saving Image..."
+msgstr "A Gravar a Imagem..."
+
+#: myfrac.cpp:288
+msgid "Failed to save the image file."
+msgstr "Não foi possível gravar o ficheiro da imagem."
+
+#: myfrac.cpp:497
+msgid "2D View"
+msgstr "Vista 2D"
+
+#: myfrac.cpp:500
+msgid "3D View"
+msgstr "Vista 3D"
+
+#: myfrac.cpp:503
+msgid "Parameters"
+msgstr "Parâmetros"
+
+#: myfrac.cpp:508
+msgid "Display"
+msgstr "Visualização"
+
+#: myfrac.cpp:512
+msgid "Preview"
+msgstr "Antevisão"
+
+#: myfrac.cpp:586
+msgid "X coordinate:"
+msgstr "Coordenada X:"
+
+#: myfrac.cpp:591
+msgid "X coordinate of the center of the view"
+msgstr "A coordenada em X do centro da janela"
+
+#: myfrac.cpp:593
+msgid "Y coordinate:"
+msgstr "Coordenada Y:"
+
+#: myfrac.cpp:598
+msgid "Y coordinate of the center of the view"
+msgstr "A coordenada em Y do centro da janela"
+
+#: myfrac.cpp:600
+msgid "Zoom magnitude:"
+msgstr "Nível de ampliação:"
+
+#: myfrac.cpp:605
+msgid "Zoom order of maginitude"
+msgstr "O nível de magnitude da ampliação"
+
+#: myfrac.cpp:607
+msgid "Rotation angle:"
+msgstr "Ângulo de rotação:"
+
+#: myfrac.cpp:612
+msgid "View rotation angle in degrees"
+msgstr "O ângulo de rotação da janela em graus"
+
+#: myfrac.cpp:614
+msgid "Julia X param.:"
+msgstr "Parâmetro X do Júlia:"
+
+#: myfrac.cpp:618
+msgid "X coordinate of the Julia parameter"
+msgstr "A coordenada em X do parâmetro Júlia"
+
+#: myfrac.cpp:620
+msgid "Julia Y param.:"
+msgstr "Parâmetro Y do Júlia:"
+
+#: myfrac.cpp:624
+msgid "Y coordinate of the Julia parameter"
+msgstr "A coordenada em Y do parâmetro Júlia"
+
+#: myfrac.cpp:626
+msgid "Iterations limit:"
+msgstr "Limite de iterações:"
+
+#: myfrac.cpp:630
+msgid "Maximum number of iterations to calculate"
+msgstr "O número máximo de iterações a calcular"
+
+#: myfrac.cpp:632
+msgid "Detail level:"
+msgstr "Nível de detalhe:"
+
+#: myfrac.cpp:636
+msgid "Amount of details to calculate"
+msgstr "A quantidade de detalhes a calcular"
+
+#: myfrac.cpp:652
+msgid "Color gradient:"
+msgstr "Gradiente de cor:"
+
+#: myfrac.cpp:656
+msgid "Gradient used to display the fractal"
+msgstr "O gradiente que será usado para apresentar o fractal"
+
+#: myfrac.cpp:658
+msgid "Color scale:"
+msgstr "Escala de cor:"
+
+#: myfrac.cpp:662
+msgid "Scale of the color gradient"
+msgstr "A escala do gradiente de cores"
+
+#: myfrac.cpp:664
+msgid "Color offset:"
+msgstr "Deslocamento de cor:"
+
+#: myfrac.cpp:668
+msgid "Offset of the color gradient"
+msgstr "O deslocamento do gradiente de cores"
+
+#: myfrac.cpp:670
+msgid "Scroll colors:"
+msgstr "Deslocar as cores:"
+
+#: myfrac.cpp:675
+msgid ""
+"_: scroll direction\n"
+"Off"
+msgstr "Desligado"
+
+#: myfrac.cpp:676
+msgid ""
+"_: scroll direction\n"
+"Left"
+msgstr "Para a Esquerda"
+
+#: myfrac.cpp:677
+msgid ""
+"_: scroll direction\n"
+"Right"
+msgstr "Para a Direita"
+
+#: myfrac.cpp:683
+msgid "Scrolling direction"
+msgstr "Direcção de deslocamento"
+
+#: myfrac.cpp:684
+msgid "Scrolling speed"
+msgstr "Velocidade de deslocamento"
+
+#: myfrac.cpp:686
+msgid "Background:"
+msgstr "Fundo:"
+
+#: myfrac.cpp:689
+msgid "Color of the background area"
+msgstr "Cor da área do fundo"
+
+#: myfrac.cpp:691
+msgid "3D grid size:"
+msgstr "Tamanho da grelha 3D:"
+
+#: myfrac.cpp:694
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: myfrac.cpp:697
+msgid "Resolution of the 3D mesh"
+msgstr "Resolução da malha 3D"
+
+#: myfrac.cpp:699
+msgid "Height scale:"
+msgstr "Escala da altura:"
+
+#: myfrac.cpp:704
+msgid "Height scale of the 3D mesh"
+msgstr "A escala da altura da malha 3D"
+
+#: myfrac.cpp:714
+msgid "&Save Image..."
+msgstr "&Gravar a Imagem..."
+
+#: myfrac.cpp:718
+msgid "&Edit Gradient..."
+msgstr "&Editar o Gradiente..."
+
+#: myfrac.cpp:720
+msgid "&Invert Gradient"
+msgstr "&Inverter o Gradiente"
+
+#: myfrac.cpp:724
+msgid "&To Mandelbrot"
+msgstr "Para Mandelbro&t"
+
+#: myfrac.cpp:732
+msgid "Show Parameters"
+msgstr "Mostrar os Parâmetros"
+
+#: myfrac.cpp:734
+msgid "Show Display"
+msgstr "Mostrar a Visualização"
+
+#: myfrac.cpp:736
+msgid "Show Preview"
+msgstr "Mostrar a Antevisão"
+
+#: myfrac.cpp:739
+msgid "Hide Parameters"
+msgstr "Esconder os Parâmetros"
+
+#: myfrac.cpp:740
+msgid "Hide Display"
+msgstr "Esconder a Visualização"
+
+#: myfrac.cpp:741
+msgid "Hide Preview"
+msgstr "Esconder a Antevisão"
+
+#: gradeditor.cpp:24
+msgid "Gradient Editor"
+msgstr "Editor do Gradiente"
+
+#: gradeditor.cpp:45
+msgid "&Save As"
+msgstr "Gravar &Como"
+
+#: gradeditor.cpp:49
+msgid "Set &Default"
+msgstr "&Pôr Por Omissão"
+
+#: gradeditor.cpp:60
+msgid "&New"
+msgstr "&Novo"
+
+#: gradeditor.cpp:62
+msgid "&RGB Gradient"
+msgstr "Gradiente &RGB"
+
+#: gradeditor.cpp:63
+msgid "&HSV Gradient"
+msgstr "Gradiente &HSV"
+
+#: gradeditor.cpp:67
+msgid "&Invert"
+msgstr "&Inverter"
+
+#: gradeditor.cpp:96
+msgid "Save Preset"
+msgstr "Gravar a Predefinição"
+
+#: gradeditor.cpp:96
+msgid "Enter Preset Name:"
+msgstr "Indique o Nome Predefinido:"
+
+#: gradeditor.cpp:108
+msgid "Do you want to set current gradient as the default gradient?"
+msgstr "Deseja mesmo configurar o gradiente actual como predefinido?"
+
+#: gradeditor.cpp:139
+msgid "Current"
+msgstr "Actual"
+
+#: gradeditor.cpp:141
+msgid "Presets"
+msgstr "Predefinições"
+
+#: main.cpp:16
+msgid "MyFrac"
+msgstr "MyFrac"
+
+#: main.cpp:17
+msgid "Program for drawing Mandelbrot and Julia fractals."
+msgstr "Um programa para desenhar fractais Mandelbrot e Júlia."

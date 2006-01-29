@@ -1,0 +1,320 @@
+# translation of myfrac.po to Serbian
+# Slobodan Simic <simicsl@verat.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: myfrac\n"
+"POT-Creation-Date: 2005-07-30 01:50+0200\n"
+"PO-Revision-Date: 2005-08-03 11:34+0200\n"
+"Last-Translator: Slobodan Simic <simicsl@verat.net>\n"
+"Language-Team: Serbian <kde-yu@kde.org.yu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Слободан Симић"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "simicsl@verat.net"
+
+#: myfrac.cpp:225
+msgid "Image Size:"
+msgstr "Величина слике:"
+
+#: myfrac.cpp:229
+msgid "x"
+msgstr "x"
+
+#: myfrac.cpp:239 myfrac.cpp:260
+msgid "Save Image"
+msgstr "Сними слику"
+
+#: myfrac.cpp:253
+msgid "An invalid image size was entered."
+msgstr "Унета је неисправна величина слике."
+
+#: myfrac.cpp:261
+msgid "Generating Image..."
+msgstr "Правим слику..."
+
+#: myfrac.cpp:278
+msgid "Not enough memory to generate the fractal."
+msgstr "Нема довољно меморије за прављење фрактала."
+
+#: myfrac.cpp:280
+msgid "Saving Image..."
+msgstr "Снимам слику..."
+
+#: myfrac.cpp:288
+msgid "Failed to save the image file."
+msgstr "Нисам успео да снимим фајл слике."
+
+#: myfrac.cpp:497
+msgid "2D View"
+msgstr "2D поглед"
+
+#: myfrac.cpp:500
+msgid "3D View"
+msgstr "3D поглед"
+
+#: myfrac.cpp:503
+msgid "Parameters"
+msgstr "Параметри"
+
+#: myfrac.cpp:508
+msgid "Display"
+msgstr "Приказ"
+
+#: myfrac.cpp:512
+msgid "Preview"
+msgstr "Преглед"
+
+#: myfrac.cpp:586
+msgid "X coordinate:"
+msgstr "X координата:"
+
+#: myfrac.cpp:591
+msgid "X coordinate of the center of the view"
+msgstr "X координата центра приказа"
+
+#: myfrac.cpp:593
+msgid "Y coordinate:"
+msgstr "Y координата:"
+
+#: myfrac.cpp:598
+msgid "Y coordinate of the center of the view"
+msgstr "Y координата центра приказа"
+
+#: myfrac.cpp:600
+msgid "Zoom magnitude:"
+msgstr "Увеличај магнитуду:"
+
+#: myfrac.cpp:605
+msgid "Zoom order of maginitude"
+msgstr "Редослед увеличавања магнитуде"
+
+#: myfrac.cpp:607
+msgid "Rotation angle:"
+msgstr "Угао ротације:"
+
+#: myfrac.cpp:612
+msgid "View rotation angle in degrees"
+msgstr "Приказ угла ротације у степенима"
+
+#: myfrac.cpp:614
+msgid "Julia X param.:"
+msgstr "Јулиа X парам.:"
+
+#: myfrac.cpp:618
+msgid "X coordinate of the Julia parameter"
+msgstr "X координата Јулиа параметра"
+
+#: myfrac.cpp:620
+msgid "Julia Y param.:"
+msgstr "Јулиа Y парам.:"
+
+#: myfrac.cpp:624
+msgid "Y coordinate of the Julia parameter"
+msgstr "Y координата Јулиа параметра"
+
+#: myfrac.cpp:626
+msgid "Iterations limit:"
+msgstr "Граница итерација:"
+
+#: myfrac.cpp:630
+msgid "Maximum number of iterations to calculate"
+msgstr "Највећи број итерација за израчунавање"
+
+#: myfrac.cpp:632
+msgid "Detail level:"
+msgstr "Ниво детаља:"
+
+#: myfrac.cpp:636
+msgid "Amount of details to calculate"
+msgstr "Количина детаља за израчунавање"
+
+#: myfrac.cpp:652
+msgid "Color gradient:"
+msgstr "Прелив боје:"
+
+#: myfrac.cpp:656
+msgid "Gradient used to display the fractal"
+msgstr "Прелив који се користи за приказ фрактала"
+
+#: myfrac.cpp:658
+msgid "Color scale:"
+msgstr "Распон боје:"
+
+#: myfrac.cpp:662
+msgid "Scale of the color gradient"
+msgstr "Распон прелива боје"
+
+#: myfrac.cpp:664
+msgid "Color offset:"
+msgstr "Растер боје:"
+
+#: myfrac.cpp:668
+msgid "Offset of the color gradient"
+msgstr "Растер прелива боје"
+
+#: myfrac.cpp:670
+msgid "Scroll colors:"
+msgstr "Клизање боја:"
+
+#: myfrac.cpp:675
+msgid ""
+"_: scroll direction\n"
+"Off"
+msgstr "Искључено"
+
+#: myfrac.cpp:676
+msgid ""
+"_: scroll direction\n"
+"Left"
+msgstr "Лево"
+
+#: myfrac.cpp:677
+msgid ""
+"_: scroll direction\n"
+"Right"
+msgstr "Десно"
+
+#: myfrac.cpp:683
+msgid "Scrolling direction"
+msgstr "Смер клизања"
+
+#: myfrac.cpp:684
+msgid "Scrolling speed"
+msgstr "Брзина клизања"
+
+#: myfrac.cpp:686
+msgid "Background:"
+msgstr "Позадина:"
+
+#: myfrac.cpp:689
+msgid "Color of the background area"
+msgstr "Боја позадине"
+
+#: myfrac.cpp:691
+msgid "3D grid size:"
+msgstr "3D растер:"
+
+#: myfrac.cpp:694
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: myfrac.cpp:697
+msgid "Resolution of the 3D mesh"
+msgstr "Резолуција 3D мреже"
+
+#: myfrac.cpp:699
+msgid "Height scale:"
+msgstr "Размера висине:"
+
+#: myfrac.cpp:704
+msgid "Height scale of the 3D mesh"
+msgstr "Размера висине 3D мреже"
+
+#: myfrac.cpp:714
+msgid "&Save Image..."
+msgstr "&Сними слику..."
+
+#: myfrac.cpp:718
+msgid "&Edit Gradient..."
+msgstr "Ур&еди прелив..."
+
+#: myfrac.cpp:720
+msgid "&Invert Gradient"
+msgstr "&Инвертуј прелив"
+
+#: myfrac.cpp:724
+msgid "&To Mandelbrot"
+msgstr "У &Манделброт"
+
+#: myfrac.cpp:732
+msgid "Show Parameters"
+msgstr "Прикажи параметре"
+
+#: myfrac.cpp:734
+msgid "Show Display"
+msgstr "Прикажи приказ"
+
+#: myfrac.cpp:736
+msgid "Show Preview"
+msgstr "Прикажи преглед"
+
+#: myfrac.cpp:739
+msgid "Hide Parameters"
+msgstr "Сакриј параметре"
+
+#: myfrac.cpp:740
+msgid "Hide Display"
+msgstr "Сакриј приказ"
+
+#: myfrac.cpp:741
+msgid "Hide Preview"
+msgstr "Сакриј преглед"
+
+#: gradeditor.cpp:24
+msgid "Gradient Editor"
+msgstr "Уређивач прелива"
+
+#: gradeditor.cpp:45
+msgid "&Save As"
+msgstr "&Сними као"
+
+#: gradeditor.cpp:49
+msgid "Set &Default"
+msgstr "Постави по&дразумевано"
+
+#: gradeditor.cpp:60
+msgid "&New"
+msgstr "&Нови"
+
+#: gradeditor.cpp:62
+msgid "&RGB Gradient"
+msgstr "&RGB Прелив"
+
+#: gradeditor.cpp:63
+msgid "&HSV Gradient"
+msgstr "&HSV Прелив"
+
+#: gradeditor.cpp:67
+msgid "&Invert"
+msgstr "&Инвертуј"
+
+#: gradeditor.cpp:96
+msgid "Save Preset"
+msgstr "Сними препоставке"
+
+#: gradeditor.cpp:96
+msgid "Enter Preset Name:"
+msgstr "Унеси име препоставке:"
+
+#: gradeditor.cpp:108
+msgid "Do you want to set current gradient as the default gradient?"
+msgstr "Желите ли да поставите тренутни прелив као подразумевани?"
+
+#: gradeditor.cpp:139
+msgid "Current"
+msgstr "Текући"
+
+#: gradeditor.cpp:141
+msgid "Presets"
+msgstr "Препоставке"
+
+#: main.cpp:16
+msgid "MyFrac"
+msgstr "MyFrac"
+
+#: main.cpp:17
+msgid "Program for drawing Mandelbrot and Julia fractals."
+msgstr "Програм за исцртавање Манделброт и Јулиа фрактала."
